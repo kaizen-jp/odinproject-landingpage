@@ -136,4 +136,39 @@ body {
 
 .content .section-4 {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.content .section-4 .section-4-container {
+  display: flex;
+  background-color: rgba(0, 0, 255, 0.692);
+  height: 50px;
+  width: 600px;
+  padding: 50px;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content .section-4 .section-4-container .container .description-1 {
+  color: white;
+  font-weight: bold;
+}
+
+.content .section-4 .section-4-container .container .description-2 {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.486);
+}
+
+.content .section-4 .section-4-container button {
+  background-color: rgba(0, 0, 255, 0.692);
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 35px;
+  width: 100px;
+  color: white;
+  cursor: pointer;
 }
