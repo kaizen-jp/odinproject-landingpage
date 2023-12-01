@@ -122,7 +122,16 @@ body {
 
 .content .section-3 {
   flex: 1;
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0.466);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.content .section-3 .quote {
+  font-size: 30px;
 }
 
 .content .section-4 {
