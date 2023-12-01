@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   display: flex;
   background-color: #1f2937;
@@ -22,4 +28,68 @@
 
 .header ul li {
   color: white;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content .section-1 {
+  flex: 1;
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content .section-1 .side-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content .section-1 .image-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 150px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.content .section-1 .side-container .title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.content .section-1 .side-container .description {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.content .section-1 .side-container button {
+  background: #3882f6;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+}
+
+.content .section-2 {
+  flex: 1;
+}
+
+.content .section-3 {
+  flex: 1;
+}
+
+.content .section-4 {
+  flex: 1;
 }
