@@ -13,7 +13,7 @@ body {
   display: flex;
   background-color: #1f2937;
   justify-content: space-between;
-  padding: 16px;
+  padding: 16px 300px;
 }
 
 .header img {
@@ -28,6 +28,7 @@ body {
 
 .header ul li {
   color: white;
+  cursor: pointer;
 }
 
 .content {
@@ -42,7 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 32px;
+  padding: 16px 300px;
 }
 
 .content .section-1 .side-container {
@@ -81,6 +82,8 @@ body {
   color: white;
   font-weight: bold;
   width: 100px;
+  cursor: pointer;
+  border: 1px solid white;
 }
 
 .content .section-2 {
@@ -118,6 +121,7 @@ body {
 
 .box-description {
   font-size: 12px;
+  text-align: center;
 }
 
 .content .section-3 {
